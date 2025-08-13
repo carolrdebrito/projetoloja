@@ -1,0 +1,42 @@
+.bg-banner{
+    /* background-color: #b39eb5 */
+    background-image: url('../assets/FunkoFundo.png');
+    background-size: 100%;
+    background-position: center;
+    /* background-position-y: mexe a imagem na vertical; */
+    /* background-position-x: mexe a imagem na horizontal; */
+    background-repeat: no-repeat
+}
+
+/* para colocar transparência
+    .sobreposição{
+    background-color: #b39eb5;
+    min-height: 300px;
+    margin-top: -200px;
+    filter: opacity (0.5);
+    }
+*/
+
+.text-meuamarelo{
+    color: white
+}
+
+
+/* tipo mensagem de promoção que aparece
+quando se entra no site. roleta de ofertas 
+    #Oie {
+    width: 500px;
+    min-height: 500px;
+    background-color: purple;
+    color: white;
+    font-size: 100px;
+    display:none;
+} */
+
+/* colocar tamanho no ícone */
+.whatsapp img{
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}
