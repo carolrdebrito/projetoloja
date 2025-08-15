@@ -44,10 +44,5 @@
     $div_float = floatval($div);
     
     echo "<br>Resultado: $div_float";
-
-
-
-
-
 ?>
 
