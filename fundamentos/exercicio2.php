@@ -13,7 +13,7 @@
 
     //Do While -> a diferença entre ele e o while é que, mesmo que x seja maior que 10, 
     // o do while vai printar a 1ª execução. O while nem faz o looping.
-    // é usado em login e senha em caixas eletrônicos...
+    // é usado mais em login e senha em caixas eletrônicos...
     $x = 0;
     do {
         echo "<br>Número $x";

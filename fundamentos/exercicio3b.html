@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="exercicio3b.php" method="post">
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <!-- caixinha para escrever o nome 
+        se não colocar, vai aparecer variável indefinida -->
+        <br>
+
+        <label for="idade"> Idade: </label>
+        <input type="number" name="idade" id="idade">
+        <br>
+
+        <select name="cidade">
+            <option>Cidade</option>
+            <!-- option disabled trasnforma o option em não selecionável-->
+            <option value="Rio de Janeiro"> Rio de Janeiro</option>
+            <option value="Niterói"> Niterói</option>
+            <br>
+            
+        </select>
+        <input type="submit" value="Enviar" name="Enviar">
+        <!-- caixinha para criar o botão enviar -->
+    </form>
+</body>
+</html>
+
