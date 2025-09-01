@@ -25,4 +25,3 @@
     <p>Endereço: <?php echo $endereco; ?> </p>
 </body>
 </html>
-
