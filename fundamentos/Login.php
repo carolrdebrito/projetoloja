@@ -1,5 +1,5 @@
 <?php
-    // Conexão com o banco de dados
+    //Conexão com o banco de dados
     $servidor = "localhost";
     $user_banco = "root";
     $senha_banco = "";
