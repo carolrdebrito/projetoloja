@@ -1,4 +1,4 @@
-<?php
+<?php // 08/09/2025
 //Conexão com o Banco de Dados
 $servidor = "localhost";
 $user_banco = "root";
