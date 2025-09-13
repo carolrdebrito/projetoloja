@@ -1,0 +1,95 @@
+Produtos > Todos os Produtos = Itens Populares = Categorias = Outlet
+
+Carrosel (ver no Bootstrap)
+
+Fandoms > Shop All
+
+* Favoritos
+	- Sukuna (Flecha de Fogo) (Jujutsu Kaisen)
+	- Gojo (Técnica Amaldiçoada Azul) (Jujutsu Kaisen)
+
+* Anime e Mangá
+	- Satoro Goju (Roupa de Praia)
+	- Suguru Geto (Roupa de Praia)
+	- Choso (Piercing Blood)
+	- Yuji Itadori (Divergent Fist)
+	- Nobara Kugisaki (Pins)
+	- Ryomen Sukuna de Kimono
+	- Megumi Fushiguro e Cachorro Divino (Jujutsu Kaisen)
+	- Megumi Fushiguro e Coelho (Jujutsu Kaisen)
+	- Kasumi Miwa
+	- Yuji Itadori
+	- Nobara Kugisaki
+	- Utahime Iori
+	- Noritoshi Kamo
+	- Momo Nishimiya
+	- Satoru Gojo
+
+* Animação e Desenho
+	- Bernardo (Bernardo e Bianca)
+	- Senhorita Bianca (Bernardo e Bianca)
+	- Zero (O Fantástico Mundo de Jack)
+	- Sally Costurando (O Fantástico Mundo de Jack)
+	- Anna (Princesas Disney)
+	- Branca de Neve (Princesas Disney)
+	- Rapunzel (Princesas Disney)
+	- Cinderella (Princesas Disney)
+	- Jasmine (Princesas Disney)
+	- Ariel (Princesas Disney)
+	- Bella (Princesas Disney)
+
+* Quadrinhos e Superheróis
+	- Superman (DC)
+	- Krypto (DC)
+	- Johnny Storm (Quarteto Fantástico)
+
+* Filmes e TV
+	- Éowyn em Batalha (O Senhor dos Anéis)
+	- Legolas (O Senhor dos Anéis)
+	- Rumi (Guerreiras do K-Pop)
+	- Mira (Guerreiras do K-Pop)
+	- Zoey (Guerreiras do K-Pop)
+	- Jinu (Guerreiras do K-Pop)
+	- Jinu Demônio
+	- Derpy e Sussie (Guerreiras do K-Pop)
+	- Elphaba (Wicked)
+
+* Música
+	- Jin (Astronaut) (BTS Solos)
+	- J-Hope (More) (BTS Solos)
+	- Jimin (Like Crazy) (BTS Solos)
+	- JungKook (Seven) (BTS Solos)
+	- RM (Wildflower) (BTS Solos)
+	- Suga (Haegeum) (BTS Solos)
+	- V (Love Me Again) (BTS Solos)
+
+* Sci-fi
+	- Grogu (The Mandalorian)
+	- Mandalorian (The Mandalorian)
+	- Ahsoka (The Mandalorian)
+
+* Esportes
+	- Baseball
+	- Basquete Masculino
+	- Basquete Feminino
+	- Futebol Americano
+	- Futebol
+
+* Retro
+	- She-ra e Kowl (Mestre do Universo)
+	- He-man (Mestre do Universo)
+	- Monster High
+	- Barbie
+	- Polly Pocket
+	- Thundercats
+	- Barney
+	- 
+
+* Video-game
+	- Five Nights At Freddy's
+	- Sonic (Pelúcias)
+	- Fallout
+	- Warcraft
+	- LOL
+	- Metal Gear
+	- D&D
