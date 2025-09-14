@@ -53,8 +53,7 @@ quando se entra no site. roleta de ofertas
   color: #000000 !important; /* cor do parágrafo */
 }
 
-#myCarousel
-.carousel-item {
+#myCarousel .carousel-item {
   height: 400px;
 }
 
