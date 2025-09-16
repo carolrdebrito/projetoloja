@@ -65,7 +65,27 @@ quando se entra no site. roleta de ofertas
 
 .image-section {
   /* Define a imagem de fundo */
-  background-image: url('../assets/imagemFundo.png');
+  background-image: url('../assets/FundoCategorias.png');
+
+  /* Ajusta a imagem para cobrir toda a área da seção */
+  background-size: cover;
+
+  /* Centraliza a imagem */
+  background-position: center;
+
+  /* Impede que a imagem se repita */
+  background-repeat: no-repeat;
+  
+  /* Melhora a visibilidade do texto, se a imagem for escura */
+    .image-section p,
+    .image-section h1 {
+        color: #000;
+        }
+    }
+
+    .image-product {
+  /* Define a imagem de fundo */
+  background-image: url('../assets/FundoMaisVendidos.png');
 
   /* Ajusta a imagem para cobrir toda a área da seção */
   background-size: cover;
