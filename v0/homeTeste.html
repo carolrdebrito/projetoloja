@@ -16,47 +16,53 @@
 </head>
 
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#!">Funko Pop! Brasil</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="homeTeste.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobreTeste.html">Sobre</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#!">Todos os Produtos</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="#!">Itens Populares</a></li>
-                            <li><a class="dropdown-item" href="categoriasTeste.html">Categorias</a></li>
-                            <li><a class="dropdown-item" href="#!">Outlet</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="loginloja.html">Login</a>
-                    </li>
+        <header class="p-3 mb-3 border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                       <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+                    <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
+                    <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
+                    <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li>
                 </ul>
+
+
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
                         <i class="bi-cart-fill me-1"></i>
                         Carrinho
-                        <span class="badge bg-dark text-white ms-3 rounded-pill">0</span>
+                        <span class="badge bg-dark text-white ms-2 rounded-pill">0</span>
                     </button>
                 </form>
-                
-                <!-- Botão de busca -->
-                <form role="search" class="ms-3"> 
-                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar"> 
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 ms-3" role="search"> 
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search"> 
                 </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        <img src="assets/FotoPerfil.jpg" alt="FotoPerfil.jpg" 
+                        width="50" height="50" class="rounded-circle"
+                        style="object-fit: cover;"> 
+                    </a> 
+                        <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                       </li>
+                       <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
-        </div>
-    </nav>
+        </header>
 
         <!-- Header-->
         <!-- <div class="sobreposicao"-->
@@ -116,263 +122,52 @@
         </button>
     </div>
 
-    <!-- Sections-->
-    <section class="py-5">
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <!-- divisória -->
+        <hr class="featurette-divider">
 
-                <!-- Imagem 1 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/FunkoRumi.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Rumi</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Imagens bolinhas -->
+        <div class="container marketing">
 
-                <!-- Imagem 2 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/FunkoMira.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Mira</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                                <!-- Product reviews
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                    </div> -->
-                                    <!-- Preço de produto com oferta
-                                    <span class="text-muted text-decoration-line-through">R$121,49</span>
-                                    R$109,35 -->
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Três colunas de texto embaixo do carrossel --> 
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="assets/FunkoRM.png" alt="Descrição da imagem" 
+                class="bd-placeholder-img rounded-circle" 
+                width="300" height="300">
+
+                <h2 class="fw-normal">Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+
+            <!-- /.col-lg-4 --> 
+            <div class="col-lg-4">
+                <img src="assets/FunkoRM.png" alt="Descrição da imagem" 
+                class="bd-placeholder-img rounded-circle" 
+                width="300" height="300">
+
+                <h2 class="fw-normal">Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>   
 
 
-                <!-- Imagem 3 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/FunkoZoey.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Zoey</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+            <!-- /.col-lg-4 --> 
+            <div class="col-lg-4">
+                <img src="assets/FunkoRM.png" alt="Descrição da imagem" 
+                class="bd-placeholder-img rounded-circle" 
+                width="300" height="300">
 
-              <!-- Imagem 4 -->
-              <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                    <!-- Product image-->
-                    <img class="card-img-top" src="assets/FunkoJinu.png" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Jinu</h5>
-                            <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                    <!-- Product reviews
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div> -->
-                                    <!-- Product price-->
-                                    <b>R$389,90</b>
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="d-flex justify-content-center gap-2">
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                <h2 class="fw-normal">Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
 
-                  <!-- Imagem 5 -->
-                  <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/FunkoDerpySussie.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Derpy e Sussie</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$289,90</b>
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+        </div>
+    </div>
 
-              <!-- Imagem 6 -->
-              <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="assets/FunkoAhsoka.png" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Ahsoka</h5>
-                            <h6 class ="fw-normal">The Mandalorian</h6>
-                            <!-- Product price-->
-                            <b>R$114,90</b>
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="d-flex justify-content-center gap-2">
-                          <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                          <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-              <!-- Imagem 7 -->
-              <div class="col mb-5">
-                <div class="card h-100">
-                                <!-- Sale badge
-                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta!</div> -->
-                                <!-- Product image-->
-                                <img class="card-img-top" src="assets/FunkoTocha.png" alt="..." />
-                                <!-- Product details-->
-                                <div class="card-body p-4">
-                                    <div class="text-center">
-                                        <!-- Product name-->
-                                        <h5 class="fw-bolder">Johnny Storm</h5>
-                                        <h5 class="fw-bolder">Tocha Humana</h5>
-                                        <h6 class ="fw-normal">Quarteto Fantástico</h6>     
-                                        <!-- Product reviews
-                                        <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                        </div> -->
-                                        <!-- Product price-->
-                                        <b>R$299,90</b>
-                                    </div>
-                                </div>
-                                <!-- Product actions-->
-                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="d-flex justify-content-center gap-2">
-                                      <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                                      <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                  <!-- Imagem 8 -->
-                  <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/FunkoElphaba.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Elphaba</h5>
-                                <h6 class ="fw-normal">Wicked</h6>
-                                    <!-- Product reviews
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div> -->
-                                    <!-- Product price-->
-                                    <b>R$149,99</b>
-                                </div>
-                            </div>
-
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="d-flex justify-content-center gap-2">
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <hr class="featurette-divider">
+        <!-- Final das imagens bolinha --> 
 
         <!-- Botão do Whastapp -->
         <div class="whatsapp">

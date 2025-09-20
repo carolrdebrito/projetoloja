@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#!">Funko Pop! Brasil</a>
+            <a class="navbar-brand" href="home.html">Funko Pop! Brasil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,6 +42,7 @@
                     </li>
                 </ul>
                 
+                <!-- Carrinho -->
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
                         <i class="bi-cart-fill me-1"></i>
@@ -55,6 +56,24 @@
                     <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar"> 
                 </form>
             </div>
+
+                <!-- Foto Perfil -->
+                <div class="dropdown text-end ms-3">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    <img src="assets/FotoPerfil.jpg" alt="FotoPerfil.jpg" 
+                    width="50" height="50" class="rounded-circle"
+                    style="object-fit: cover;"> 
+                    </a> 
+                        <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                           <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
         </div>
     </nav>
 
@@ -70,6 +89,9 @@
                 </div>
             </div>
         </header>
+
+        <!-- divisória -->
+        <hr class="featurette-divider">
 
         <!-- Carrossel -->
         <div id="myCarousel" class="carousel slide mt-3 mb-6" data-bs-ride="carousel">
@@ -116,141 +138,75 @@
         </button>
     </div>
 
-    <!-- Sections-->
-    <section class="py-5">
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <!-- divisória -->
+        <hr class="featurette-divider">
 
-                <!-- Imagem 1 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/KPopRumi.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Rumi</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Imagens bolinhas -->
+        <div class="container marketing">
 
-                <!-- Imagem 2 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/KPopMira.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Mira</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                                <!-- Product reviews
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                    </div> -->
-                                    <!-- Preço de produto com oferta
-                                    <span class="text-muted text-decoration-line-through">R$121,49</span>
-                                    R$109,35 -->
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Três colunas de texto embaixo do carrossel --> 
+        <div class="row">
+
+            <!-- /.col-lg-4 --> 
+            <div class="col-lg-4">
+                <img src="assets/SWMandoGrogu.png" alt="Funko POP! do personagem Mandalorian sem capacete segurando Grogu no colo de Star Wars" class="circle-aura">
+                <style>
+                .circle-aura {
+                  width: 300px;
+                  height: 300px;
+                  object-fit: cover;
+                  border-radius: 25%;
+                  border: 4px solid #fff; /* borda principal */
+                  box-shadow: 0 0 30px rgba(0, 123, 255, 0.6); /* "aura" suave */
+                }
+                </style>
+                <h2><br>Mais Vendidos</h2>
+                <p>Aqui você encontra uma lista dos Funkos POP! mais vendidos na nossa loja. Qual será a posição do seu favorito?</p>
+                <p><a class="btn btn-secondary" href="maisvendidos.html">Clique aqui »</a></p>
+            </div>
+
+            <!-- /.col-lg-4 --> 
+            <div class="col-lg-4">
+                <img src="assets/YuYuHakushoBotan.png" alt="Funko POP! da Botan do anime Yu Yu Hakusho" class="circle-aura">
+                <style>
+                .circle-aura {
+                  width: 300px;
+                  height: 300px;
+                  object-fit: cover;
+                  border-radius: 25%;
+                  border: 4px solid #fff; /* borda principal */
+                  box-shadow: 0 0 30px rgba(0, 123, 255, 0.6); /* "aura" suave */
+                }
+                </style>
+                <h2><br>Outlet</h2>
+                <p>Promoção de Funkos POP! A mesma qualidade, mas com o preço mais barato. Vamos procurar mais um para a sua coleção?</p>
+                <p><a class="btn btn-secondary" href="#">Entrar em Outlet »</a></p>
+            </div>
 
 
-                <!-- Imagem 3 -->
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="assets/KPopZoey.png" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Zoey</h5>
-                                <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                <!-- Product price-->
-                                <b>R$199,95</b>
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="d-flex justify-content-center gap-2">
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                              <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+            <!-- /.col-lg-4 --> 
+            <div class="col-lg-4">
+                <img src="assets/MulanLiShang.png" alt="Funko POP! do personagem Li Shang do filme de animação Mulan da Disney" class="circle-aura">
+                <style>
+                .circle-aura {
+                  width: 300px;
+                  height: 300px;
+                  object-fit: cover;
+                  border-radius: 25%;
+                  border: 4px solid #fff; /* borda principal */
+                  box-shadow: 0 0 30px rgba(0, 123, 255, 0.6); /* "aura" suave */
+                }
+                </style>
+                <h2><br>Categorias</h2>
+                <p>Não sabe por onde começar? Que tal dar uma olhada nas nossas Categorias? Lá você encontra muitas opções separadas para não se perder! </p>
+                <p><a class="btn btn-secondary" href="categorias.html">Categorias »</a></p>
+            </div>
 
-              <!-- Imagem 4 -->
-              <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                    <!-- Product image-->
-                    <img class="card-img-top" src="assets/KPopJinu.png" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Jinu</h5>
-                            <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                                    <!-- Product reviews
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div> -->
-                                    <!-- Product price-->
-                                    <b>R$389,90</b>
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="d-flex justify-content-center gap-2">
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Detalhes</button>
-                                  <button class="btn btn-primary rounded-pill px-3" type="button">Comprar</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+        </div>
+    </div>
+
+        <hr class="featurette-divider">
+        <!-- Final das imagens bolinha --> 
 
         <!-- Botão do Whastapp -->
         <div class="whatsapp">
