@@ -17,13 +17,11 @@
 </head>
 
 <body>
+    <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#!">Funko Pop! Brasil</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a class="navbar-brand" href="home.html">Funko Pop! Brasil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -43,7 +41,8 @@
                     <li class="nav-item"><a class="nav-link" href="loginloja.html">Login</a>
                     </li>
                 </ul>
-
+                
+                <!-- Carrinho -->
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
                         <i class="bi-cart-fill me-1"></i>
@@ -51,51 +50,76 @@
                         <span class="badge bg-dark text-white ms-3 rounded-pill">0</span>
                     </button>
                 </form>
+                
                 <!-- Botão de busca -->
-                <form role="search" class="ms-3">
-                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <form role="search" class="ms-3"> 
+                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar"> 
                 </form>
             </div>
+
+                <!-- Foto Perfil -->
+                <div class="dropdown text-end ms-3">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    <img src="assets/FotoPerfil.jpg" alt="FotoPerfil.jpg" 
+                    width="50" height="50" class="rounded-circle"
+                    style="object-fit: cover;"> 
+                    </a> 
+                        <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                           <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                </div>
         </div>
     </nav>
 
-<!-- HEADER -->
-<header class="bg-banner py-5">
-    <div class="container px-4 px-lg-5 my-5">
-      <div class="text-center text-meuamarelo">
-        <h1 class="display-4 fw-bolder">Funko Pop! Brasil</h1>
-        <p class="lead fw-normal text-white mb-0">Revendedora oficial da Funko no Brasil</p>
-      </div>
-    </div>
-  </header>
-  
-  <!-- CONTEÚDO PRINCIPAL -->
-    <main>
-        <div class="container marketing py-5">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1"> Sobre Nós</h2>
-                        <p class="lead">Encontre o seu fandom na Funko, um hub para a cultura pop. Traga mais diversão para
-                        o seu dia-a-dia com os seus fandoms favoritos e personagens com uma variedade de bonecos, vestuário,
-                        acessórios, pelúcias, bonecos de ação, coleções digitais e muito mais! A Funko tem o maior acervo de
-                        licenças da cultura pop do mundo e é o melhor lugar para você encontrar a próxima peça para a sua
-                        coleção. </p>
+        <!-- Header-->
+        <!-- <div class="sobreposicao"-->
+        <header class="bg-banner py-5">
+            <!-- o que tá dando a cor ao background -->
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-meuamarelo">
+                    <!-- texto do título -->
+                    <h1 class="display-4 fw-bolder">Funko Pop! Brasil</h1>
+                    <p class="lead fw-normal text-white mb-0">Revendedora oficial da Funko no Brasil</p>
                 </div>
+            </div>
+        </header>
 
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="assets/MulherMaravilha.jpg" alt="Descrição da imagem"/>
-            </div>
-            </div>
-        </div>
-        </div>
-    </main>
+        <!-- divisória -->
+        <hr class="featurette-divider">
   
-    <!-- Footer-->
-    <footer class="py-5 bg-dark">
-        <div class="container"><p class="m-0 text-center text-white">Funko Pop! &copy; Todos os direitos reservados</p></div>
-    </footer>
-    
-    </div>
-</body>
+          <!-- CONTEÚDO PRINCIPAL -->
+            <main>
+                <div class="container marketing py-5">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading fw-normal lh-1"> Sobre Nós</h2>
+                                <p class="lead">Encontre o seu fandom na Funko, um hub para a cultura pop. Traga mais diversão para
+                                o seu dia-a-dia com os seus fandoms favoritos e personagens com uma variedade de bonecos, vestuário,
+                                acessórios, pelúcias, bonecos de ação, coleções digitais e muito mais! A Funko tem o maior acervo de
+                                licenças da cultura pop do mundo e é o melhor lugar para você encontrar a próxima peça para a sua
+                                coleção. </p>
+                        </div>
 
-</html>
+                    <div class="col-md-5">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="assets/MulherMaravilha.jpg" alt="Descrição da imagem"/>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </main>
+          
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container"><p class="m-0 text-center text-white">Funko Pop! &copy; Todos os direitos reservados</p></div>
+            </footer>
+    
+        </div>
+    </body>
+
+    </html>

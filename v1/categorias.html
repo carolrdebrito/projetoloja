@@ -16,54 +16,72 @@
     <link href="css/estilofunko.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Funko Pop! Brasil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#!">Funko Pop! Brasil</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Todos os Produtos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#!">Itens Populares</a></li>
+                                <li><a class="dropdown-item" href="categorias.html">Categorias</a></li>
+                                <li><a class="dropdown-item" href="#!">Outlet</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="loginloja.html">Login</a>
+                        </li>
+                    </ul>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="home.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#!">Todos os Produtos</a></li>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrinho
+                            <span class="badge bg-dark text-white ms-3 rounded-pill">0</span>
+                        </button>
+                    </form>
+                    <!-- Botão de busca -->
+                    <form role="search" class="ms-3">
+                        <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    </form>
+                </div>
+
+
+                <!-- Foto Perfil -->
+                    <div class="dropdown text-end ms-3">
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        <img src="assets/FotoPerfil.jpg" alt="FotoPerfil.jpg" 
+                        width="50" height="50" class="rounded-circle"
+                        style="object-fit: cover;"> 
+                        </a> 
+                            <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                            <li><a class="dropdown-item" href="#">Configurações</a></li>
                             <li>
-                                <hr class="dropdown-divider" />
+                                <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#!">Itens Populares</a></li>
-                            <li><a class="dropdown-item" href="categorias.html">Categorias</a></li>
-                            <li><a class="dropdown-item" href="#!">Outlet</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="loginloja.html">Login</a>
-                    </li>
-                </ul>
-
-                <form class="d-flex">
-                    <button class="btn btn-outline-dark" type="submit">
-                        <i class="bi-cart-fill me-1"></i>
-                        Carrinho
-                        <span class="badge bg-dark text-white ms-3 rounded-pill">0</span>
-                    </button>
-                </form>
-                <!-- Botão de busca -->
-                <form role="search" class="ms-3">
-                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                </form>
+                               <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                    </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    
     <main>
-
         <!-- Cabeçalho do Categorias-->
         <section class="py-5 text-center container image-section">
             <div class="row py-lg-5">
