@@ -65,7 +65,7 @@ quando se entra no site. roleta de ofertas
 
 .image-section {
   /* Define a imagem de fundo */
-  background-image: url('../assets/Categorias.png');
+  background-image: url('../assets/CategoriasMenu.png');
 
   /* Ajusta a imagem para cobrir toda a área da seção */
   background-size: cover;
@@ -83,7 +83,7 @@ quando se entra no site. roleta de ofertas
         }
     }
 
-    .image-product {
+  .image-product {
   /* Define a imagem de fundo */
   background-image: url('../assets/MaisVendidos.png');
 
