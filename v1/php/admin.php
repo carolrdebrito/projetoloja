@@ -85,20 +85,19 @@
 
             while($linha = $listar->fetch_assoc()){
                 echo '
-                    <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
-                    <!-- Product image-->
-                    <img class="card-img-top" src="../assets/' . $linha["imagem"] .'" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">' . $linha["nome_produto"]. '</h5>
-                            <h6 class ="fw-normal">Guerreiras do K-Pop</h6>
-                            <!-- Product price-->
-                            <br>' . $linha["preco_unitario"]. '<br>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novidade</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/' . $linha["imagem"] .'" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">' . $linha["nome_produto"] . '</h5>
+                                <!-- Product price-->
+                                R$ ' . $linha["preco_unitario"] . '
                         </div>
                     </div>
                     <!-- Product actions-->
